@@ -1,10 +1,9 @@
-(use 'clojure.contrib.combinatorics)
+(use '[clojure.contrib.combinatorics :only (permutations)])
 
 (defn all-possible-placements [n]
   "Return a lazy-sequence of placement vectors for all possible arrangements
    of N queens on a chessboard of size N x N."
-  (apply cartesian-product
-         (take n (repeat (range 1 (inc n))))))
+  (permutations (range 1 (inc n))))
 
 (defn no-duplicates [vec]
   "Returns true if the given vector does not contain duplicate elements, else false."
