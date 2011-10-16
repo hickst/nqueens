@@ -1,6 +1,16 @@
 A Clojure project to try out various solutions to the N Queens problem.
 
-A good introduction to this puzzle is found beginning on page 203 of
-The Icon Programming Language, 3rd Edition. This book is available
+A good introduction to this puzzle is found on Wikipedia:
+  http://en.wikipedia.org/wiki/Nqueens
+
+Another approach, using backtracking, is found beginning on page 203 of
+The Icon Programming Language, 3rd Edition. The entire book is available
 for download in PDF form from the University of Arizona at:
   http://www.cs.arizona.edu/icon/lb3.htm
+
+
+Programs:
+---------
+permute-filter.clj	Diagonal tests based on Icon book algorithm.
+permute-filter2.py	Python program from Wikipedia using much concise algorithm.
+permute-filter2.clj	Port of Wikipedia Python program to Clojure.
