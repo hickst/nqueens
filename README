@@ -1,0 +1,6 @@
+A Clojure project to try out various solutions to the N Queens problem.
+
+A good introduction to this puzzle is found beginning on page 203 of
+The Icon Programming Language, 3rd Edition. This book is available
+for download in PDF form from the University of Arizona at:
+  http://www.cs.arizona.edu/icon/lb3.htm
